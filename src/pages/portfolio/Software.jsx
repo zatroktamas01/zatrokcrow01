@@ -3,6 +3,7 @@ import software2 from './software/2.jpg'
 import software3 from './software/3.jpg'
 import software4 from './software/4.jpg'
 import software5 from './software/5.jpg'
+import software6 from './software/6.jpg'
 import { Link } from "react-router-dom";
 
 function Software() {
@@ -36,6 +37,10 @@ function Software() {
 
                     <div className="col">
                         <a target="_blank" href={"https://www.nokrehangolva.hu/"}><img src={software5} className="gallery-item bg-dark" alt="gallery" /></a>
+                    </div>
+
+                    <div className="col">
+                        <a target="_blank" href={"https://zatroktamas01.github.io/midnight01/"}><img src={software6} className="gallery-item bg-dark" alt="gallery" /></a>
                     </div>
 
                     <div className="button-container">
