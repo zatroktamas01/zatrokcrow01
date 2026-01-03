@@ -18,30 +18,62 @@ function Software() {
                             <button className="btn bg-warning sizeButton">steps back</button>
                         </Link>
                     </div>
-
                     <div className="col">
-                        <a target="_blank" href={"https://zatroktamas01.github.io/mondrian/"}><img src={software1} className="gallery-item bg-dark" alt="gallery" /></a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://zatroktamas01.github.io/mondrian/"
+                        >
+                            <img src={software1} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
                     </div>
 
                     <div className="col">
-                        <a target="_blank" href={"https://zatroktamas01.github.io/drum-kit-/"}><img src={software2} className="gallery-item bg-dark" alt="gallery" /></a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://zatroktamas01.github.io/drum-kit-/"
+                        >
+                            <img src={software2} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
                     </div>
 
                     <div className="col">
-                        <a target="_blank" href={"https://zatroktamas01.github.io/pokemonlist/"}><img src={software3} className="gallery-item bg-dark" alt="gallery" /></a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://zatroktamas01.github.io/pokemonlist/"
+                        >
+                            <img src={software3} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
                     </div>
 
                     <div className="col">
-                        <a target="_blank" href={"https://zatroktamas01.github.io/harry_potter_quiz_01/"}><img src={software4} className="gallery-item bg-dark" alt="gallery" /></a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://zatroktamas01.github.io/harry_potter_quiz_01/"
+                        >
+                            <img src={software4} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
                     </div>
 
                     <div className="col">
-                        <a target="_blank" href={"https://www.nokrehangolva.hu/"}><img src={software5} className="gallery-item bg-dark" alt="gallery" /></a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.nokrehangolva.hu/"
+                        >
+                            <img src={software5} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
                     </div>
 
+
                     <div className="col">
-                        <a target="_blank" href={"https://zatroktamas01.github.io/midnight01/"}><img src={software6} className="gallery-item bg-dark" alt="gallery" /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://zatroktamas01.github.io/midnight01/"> <img src={software6} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
                     </div>
+
 
                     <div className="button-container">
                         <Link to="/">
@@ -54,4 +86,4 @@ function Software() {
     </div>
 }
 
-export default  Software;
+export default Software;
