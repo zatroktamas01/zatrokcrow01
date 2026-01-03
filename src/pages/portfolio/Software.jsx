@@ -70,10 +70,10 @@ function Software() {
 
 
                     <div className="col">
-                        <a target="_blank" rel="noopener noreferrer" href="https://zatroktamas01.github.io/midnight01/"> <img src={software6} className="gallery-item bg-dark" alt="gallery" />
+                        <a target="_blank" rel="noopener noreferrer" href="https://zatroktamas01.github.io/midnight01/">
+                            <img src={software6} className="gallery-item bg-dark" alt="gallery" />
                         </a>
                     </div>
-
 
                     <div className="button-container">
                         <Link to="/">
