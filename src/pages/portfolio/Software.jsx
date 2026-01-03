@@ -67,14 +67,13 @@ function Software() {
                             <img src={software5} className="gallery-item bg-dark" alt="gallery" />
                         </a>
                     </div>
-
+                    
 
                     <div className="col">
                         <a target="_blank" rel="noopener noreferrer" href="https://zatroktamas01.github.io/midnight01/">
                             <img src={software6} className="gallery-item bg-dark" alt="gallery" />
                         </a>
                     </div>
-
                     <div className="button-container">
                         <Link to="/">
                             <button className="btn bg-warning sizeButton">steps back</button>
