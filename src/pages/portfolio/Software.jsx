@@ -4,6 +4,7 @@ import software3 from './software/3.jpg'
 import software4 from './software/4.jpg'
 import software5 from './software/5.jpg'
 import software6 from './software/6.jpg'
+import software7 from './software/7.jpg'
 import { Link } from "react-router-dom";
 
 function Software() {
@@ -74,6 +75,13 @@ function Software() {
                             <img src={software6} className="gallery-item bg-dark" alt="gallery" />
                         </a>
                     </div>
+
+                     <div className="col">
+                        <a target="_blank" rel="noopener noreferrer" href="https://argos-system-alpha.vercel.app/login">
+                            <img src={software7} className="gallery-item bg-dark" alt="gallery" />
+                        </a>
+                    </div>
+
                     <div className="button-container">
                         <Link to="/">
                             <button className="btn bg-warning sizeButton">steps back</button>
